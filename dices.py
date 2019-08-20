@@ -26,7 +26,7 @@ while t <= quantity:
     r = random.randrange(1, a, 1)
     # дальше добавляю эти числа в группу
     numbers_dm.append ()
-    y+=1
+    t+=1
 
 itoggroup = sum(numbers_group)
 itogdm = sum(numbers_dm)
