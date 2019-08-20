@@ -11,7 +11,7 @@ while i <= quantity:
     facets = int( input ("how much facets on dice?: ") )
     facets_group.append (facets)
     i+=1
-# по циклу рандомно выбираю число от 1 до кол-ва граней, удаляя первый элемент и возвращая его через facets_group.pop
+# по циклу рандомно выбираю число от 1 до кол-ва граней, удаляя последний элемент и возвращая его через facets_group.pop
 y = 1
 while y <= quantity:
     a = facets_group.pop()
