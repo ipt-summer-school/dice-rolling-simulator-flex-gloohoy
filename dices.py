@@ -1,7 +1,7 @@
 import random
 facets_group = []
 numbers_group = []
-
+numbers_dm = []
 
 quantity = int( input ("how much dices?: ") )
 
@@ -17,9 +17,25 @@ while y <= quantity:
     a = facets_group.pop()
     r = random.randrange(1, a, 1)
     # дальше добавляю эти числа в группу
-    numbers_group.append (r)
+    numbers_group.append ()
     y+=1
 
-itog = sum(numbers_group)
-print (itog)
+t = 1
+while t <= quantity:
+    a = facets_group.pop()
+    r = random.randrange(1, a, 1)
+    # дальше добавляю эти числа в группу
+    numbers_dm.append ()
+    y+=1
+
+itoggroup = sum(numbers_group)
+itogdm = sum(numbers_dm)
+print ("DMs result is ", itogdm ) print ("groups result is ", itoggroup)
+
+if itoggroup > itogdm:
+print ( "my congradulations, dudes" )
+elif itogdm > itoggroup:
+print ("well, shit happenes")
+else:
+print ("Drow! One more time?)")
 
