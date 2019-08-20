@@ -17,7 +17,7 @@ while y <= quantity:
     a = facets_group.pop()
     r = random.randrange(1, a, 1)
     # дальше добавляю эти числа в группу
-    numbers_group.append ()
+    numbers_group.append (r)
     y+=1
 
 t = 1
@@ -25,7 +25,7 @@ while t <= quantity:
     a = facets_group.pop()
     r = random.randrange(1, a, 1)
     # дальше добавляю эти числа в группу
-    numbers_dm.append ()
+    numbers_dm.append (r)
     t+=1
 
 itoggroup = sum(numbers_group)
